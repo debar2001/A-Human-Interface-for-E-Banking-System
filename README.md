@@ -8,4 +8,4 @@ We have a check.js for checking credentials whether they are filled in proper wa
 The different php files which also include html were created for different functionalities of an E-Banking System.
 
 The welcomestyle.css file was developed for adding style sheet to the welcome page which is a bit different than other pages.
-The transferstyle.css file contains style elements for all the other html and php files
+The transferstyle.css file contains style elements for all the other html & php files
