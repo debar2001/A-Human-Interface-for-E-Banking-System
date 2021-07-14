@@ -1,0 +1,304 @@
+body{
+	margin: 0px;
+}
+button, .btn1, .btn2{
+		background-image: linear-gradient(to right,#ff8533,#ffc299);
+		border-radius: 25px;
+		font-size: 12pt;
+		margin:0px;
+		width: 200px;
+		height: 50px;
+}
+button:hover{
+	font-size: 20pt;
+	background-image: linear-gradient(to right,#0099ff,#0099ff);
+	color:white;
+	font-weight: bold;
+}
+.btn1:hover{
+  font-size: 20pt;
+  background-image: linear-gradient(to right,#0099ff,#0099ff);
+  color:white;
+  font-weight: bold;
+}
+img{
+	position:fixed;
+	top:10px;
+	left:20px;
+	width:200px;
+	height: 100px;
+}
+.logout
+{
+	position: fixed;
+	top:50px;
+	right:50px;
+}
+
+.accountinfo, .transaction, .transhistory, .atmpin, .contact1, .cnfatmpin, .cnfpasschange, .passchange, .usernamechange,
+.cnfsignup, .cnftrans, .cnfusernamechange, .otpatmpin, .otppasschange, .otptrans, .otpusernamechange, .email1, .cnflogout, 
+.accbal, .help, .usability{
+	position: fixed;
+	left:240px;
+	top: 200px;
+    color:white;
+    width:800px;
+    height:380px;
+    text-align: center;
+    display:block;
+    overflow: auto;
+    border: 1px solid #888;
+    border-radius: 25px;
+    background-color: rgb(4, 170, 109);
+
+}
+          
+          .txtField {
+              height:25px;
+              width: 40%;
+
+          }
+          #Header{
+              font-size: 60px;
+          }
+          #Submit:hover{
+            	font-size: 20pt;
+	background-image: linear-gradient(to right,#0099ff,#0099ff);
+	color:white;
+	font-weight: bold;
+          }
+          b::after{
+              content:"*";
+               color: #ffc299;}
+.userinfo::after{
+	content: "";
+}
+.topnav {
+  position: fixed;
+  top: 120px;
+  left:0px;
+  width:100%;
+  height: 40px;
+  overflow: hidden;
+  background-color: #ff6600;
+  border-radius: 15px;
+}
+
+.topnav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover{
+  background-color: #0099ff;
+  font-weight: bold;
+}
+.topnav a.active {
+  background-color: rgb(4,170,109);
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+}
+.tip1
+{
+  position: fixed;
+  top:50px;
+  right:50px;
+  width: 200px;
+  height: 50px;
+}
+.tip2
+{
+  position: fixed;
+  top: 120px;
+  left: 0px;
+  width: 111.66px;
+  height: 45px;
+}
+.tip3
+{
+  position: fixed;
+  top: 120px;
+  left: 77.44px;
+  width: 111.66px;
+  height: 45px;
+}
+.tip4
+{
+  position: fixed;
+  top: 120px;
+  left: 189.1px;
+  width: 166.91px;
+  height: 45px;
+}
+.tip5
+{
+  position: fixed;
+  top: 120px;
+  left: 356.01px;
+  width: 150.06px;
+  height: 45px;
+}
+.tip18
+{
+  position: fixed;
+  top: 120px;
+  left: 506.07px;
+  width: 134.43px;
+  height: 45px;
+}
+.tip19
+{
+  position: fixed;
+  top: 120px;
+  left: 640.5px;
+  width: 65.05px;
+  height: 45px;
+}
+.tip6
+{
+  position: fixed;
+  top: 120px;
+  left: 705.55px;
+  width: 84.89px;
+  height: 45px;
+}
+.tip20
+{
+  position: fixed;
+  top: 120px;
+  left: 790.44px;
+  width: 148.08px;
+  height: 45px;
+}
+.tip7
+{
+  position: fixed;
+  top: 445px;
+  left: 430px;
+  width: 200px;
+  height: 80px;
+}
+.tip8
+{
+  position: fixed;
+  top: 445px;
+  left: 632px;
+  width: 200px;
+  height: 80px;
+}
+.tip9, .tip10, .tip11, .tip12, .tip13, .tip14, .tip15, .tip16, .tip17
+{
+  position: relative;
+  top: 0px;
+  left: 280px;
+  width: 200px;
+  height: 50px;
+}
+.tip2 .tiptext2,
+.tip3 .tiptext3,
+.tip4 .tiptext4,
+.tip5 .tiptext5,
+.tip6 .tiptext6,
+.tip18 .tiptext18,
+.tip19 .tiptext19,
+.tip20 .tiptext20
+{
+  visibility: hidden;
+  width: 300px;
+  background-color: #ff6600;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 0px;
+  font-size: 15px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 0;
+  top: 100%;
+  left: -2px;
+}
+.tip19 .tiptext19
+{
+  width: 420px;
+}
+.tip20 .tiptext20
+{
+  width: 375px;
+}
+.tip1 .tiptext1,
+.tip7 .tiptext7
+{
+  visibility: hidden;
+  width: 180px;
+  background-color: #ff6600;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 0;
+  top: 0px;
+  right: 102%;
+}
+.tip8 .tiptext8,
+.tip9 .tiptext9,
+.tip10 .tiptext10,
+.tip11 .tiptext11,
+.tip12 .tiptext12,
+.tip13 .tiptext13,
+.tip14 .tiptext14,
+.tip15 .tiptext15,
+.tip16 .tiptext16,
+.tip17 .tiptext17
+{
+  visibility: hidden;
+  width: 180px;
+  background-color: #ff6600;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 102%;
+}
+
+.tip1:hover .tiptext1,
+.tip2:hover .tiptext2,
+.tip3:hover .tiptext3,
+.tip4:hover .tiptext4,
+.tip5:hover .tiptext5,
+.tip6:hover .tiptext6,
+.tip7:hover .tiptext7,
+.tip8:hover .tiptext8,
+.tip9:hover .tiptext9,
+.tip10:hover .tiptext10,
+.tip11:hover .tiptext11,
+.tip12:hover .tiptext12,
+.tip13:hover .tiptext13,
+.tip14:hover .tiptext14,
+.tip15:hover .tiptext15,
+.tip16:hover .tiptext16,
+.tip17:hover .tiptext17,
+.tip18:hover .tiptext18,
+.tip19:hover .tiptext19,
+.tip20:hover .tiptext20
+{
+  visibility: visible;
+}
+tr:hover{
+  background-color: #ff8533;
+  color: black;
+  font-weight: bold;
+}

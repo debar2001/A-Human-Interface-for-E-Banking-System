@@ -1,0 +1,169 @@
+body{
+	margin: 0px;
+}
+h1{
+	position: fixed;
+	left: 400px;
+	width:500px;
+	top: 20px;
+	color: white;
+}
+button.login{
+	position: fixed;
+	left: 540px;
+	top: 400px;
+}
+.tooltip{
+	position: fixed;
+	left: 540px;
+	top: 400px;
+	width: 200px;
+  height: 50px;
+  display: inline-block;
+}
+.tooltip1{
+  position: fixed;
+  left: 540px;
+  top: 480px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+}
+.signup{
+	position: fixed;
+	left: 540px;
+	top: 480px;
+}
+.tip1, .tip2, .tip3, .tip4, .tip5{
+  position: relative;
+  top: 0px;
+  width: 100px;
+  height: 0px;
+  display: inline-block;
+  text-align: left;
+}
+.tip2{
+  width: 70px;
+}
+.tip3{
+  width: 130px;
+}
+.tip4, .tip5{
+  width: 200px;
+}
+img{
+	position:fixed;
+	top:10px;
+	left:490px;
+	width:300px;
+	height: 180px;
+}
+button, .btn1, .btn2{
+	background-image: linear-gradient(to right,#ff8533,#ffc299);
+		border-radius: 25px;
+		font-size: 12pt;
+		margin:0px;
+		width: 200px;
+		height: 50px;
+}
+button:hover, .btn1:hover, .btn2:hover {
+	font-size: 20pt;
+	background-image: linear-gradient(to right,#0099ff,#0099ff);
+	color:white;
+	font-weight: bold;
+
+}
+.tooltip .tooltiptext, 
+.tooltip1 .tooltiptext1,
+.tip1 .tiptext1,
+.tip2 .tiptext2,
+.tip3 .tiptext3,
+.tip4 .tiptext4,
+.tip5 .tiptext5
+{
+  visibility: hidden;
+  width: 200px;
+  background-color: #ff6600;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 0;
+  top: -2px;
+  left: 104%;
+}
+
+.tooltip:hover .tooltiptext,
+.tooltip1:hover .tooltiptext1,
+.tip1:hover .tiptext1,
+.tip2:hover .tiptext2,
+.tip3:hover .tiptext3,
+.tip4:hover .tiptext4,
+.tip5:hover .tiptext5
+ {
+  visibility: visible;
+}
+.modal, 
+.modal1 {
+  display: none; /* Hidden by default */
+  color: white;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0px;
+  top: 0px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content, 
+.modal-content1 {
+	text-align: center; 
+  background-color: rgb(4, 170, 109);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 25px;
+  width: 80%;
+  height: 60%;
+  overflow: auto;
+}
+
+/* The Close Button */
+.close, 
+.close1 {
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus, 
+.close1:hover,
+.close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+a { cursor: pointer; color: #ffc299; }
+a:hover{color: #ff8533; text-decoration: underline;}
+.ph{
+  position: relative;
+  left: 0px;
+  color: #000000;
+  text-align: left;
+  display: inline-block;
+}
+#span1, #span2{
+  display: none;
+  font-size: 10pt;
+  color: white;
+}
