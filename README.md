@@ -10,4 +10,4 @@ The different php files which also include html were created for different funct
 The welcomestyle.css file was developed for adding style sheet to the welcome page which is a bit different than other pages.
 The transferstyle.css file contains style elements for all the other html & php files
 
-We implemented the OTP services, where a user gets an email from the bank's email id, sent automatically using the SMTP protocol for that you have to configure te php.ini and sentmail.ini files and also set up the mercury services provided by the XAMPP server solution stack package.
+We implemented the OTP services, where a user gets an email of the OTP to be filled from the bank's email id, sent automatically using the SMTP protocol for that you have to configure te php.ini and sentmail.ini files and also set up the mercury services provided by the XAMPP server solution stack package.
